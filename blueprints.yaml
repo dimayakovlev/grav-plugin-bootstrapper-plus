@@ -1,0 +1,138 @@
+name: Bootstrapper Plus
+version: 1.0.0
+description: "Loads the Bootstrap Framework v3.3.5 assets for any plugin/theme that needs it"
+icon: bold
+author:
+  name: Dmitry Yakovlev
+  email: dmiyak@mail.ru
+  url: http://dimayakovlev.ru
+homepage: https://github.com/dimayakovlev/grav-plugin-bootstrapper-plus
+keywords: bootstrap, css, plugin, framework
+bugs: https://github.com/dimayakovlev/grav-plugin-bootstrapper-plus/issues
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+
+    always_load:
+      type: toggle
+      label: PLUGIN_BOOTSTRAPPER_PLUS.ALWAYS_LOAD
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: PLUGIN_BOOTSTRAPPER_PLUS.ALWAYS_LOAD_HELP
+
+    use_cdn:
+      type: toggle
+      label: PLUGIN_BOOTSTRAPPER_PLUS.USE_CDN
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: PLUGIN_BOOTSTRAPPER_PLUS.USE_CDN_HELP
+
+    mode:
+      type: select
+      size: small
+      label: PLUGIN_BOOTSTRAPPER_PLUS.MODE
+      default: 'production'
+      options:
+        development: Development
+        production: Production
+
+    bootstrap_features:
+      type: section
+      title: PLUGIN_BOOTSTRAPPER_PLUS.BOOTSTRAP_FEATURES
+      underline: false
+
+    load_core_css:
+      type: toggle
+      label: PLUGIN_BOOTSTRAPPER_PLUS.LOAD_CORE_CSS
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+
+    load_theme_css:
+      type: toggle
+      label: PLUGIN_BOOTSTRAPPER_PLUS.LOAD_THEME_CSS
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+
+    load_core_js:
+      type: toggle
+      label: PLUGIN_BOOTSTRAPPER_PLUS.LOAD_CORE_JS
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+
+    additional_features:
+      type: section
+      title: PLUGIN_BOOTSTRAPPER_PLUS.ADDITIONAL_FEATURES
+      underline: false
+
+    load_bootswatch_theme:
+      type: select
+      size: small
+      label: PLUGIN_BOOTSTRAPPER_PLUS.LOAD_CUSTOMIZED_BOOTSTRAP
+      help: PLUGIN_BOOTSTRAPPER_PLUS.LOAD_CUSTOMIZED_BOOTSTRAP_HELP
+      default: no
+      options:
+        no: PLUGIN_ADMIN.NO
+        cerulean: Cerulean
+        cosmo: Cosmo
+        cyborg: Cyborg
+        darkly: Darkly
+        flatly: Flatly
+        journal: Journal
+        lumen: Lumen
+        paper: Paper
+        readable: Readable
+        sandstone: Sandstone
+        simplex: Simplex
+        slate: Slate
+        spacelab: Spacelab
+        superhero: Superhero
+        united: United
+        yeti: Yeti
+
+    load_font_awesome:
+      type: toggle
+      label: PLUGIN_BOOTSTRAPPER_PLUS.LOAD_FONT_AWESOME
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool

@@ -1,0 +1,33 @@
+en:
+  PLUGIN_BOOTSTRAPPER_PLUS:
+    STATUS: 'Plugin status'
+    ALWAYS_LOAD: 'Always load'
+    ALWAYS_LOAD_HELP: 'If disabled, let the theme decide to load the bootstrap plugin'
+    USE_CDN: 'Use CDN'
+    USE_CDN_HELP: "Load CSS and JavaScript from CDN"
+    MODE: Mode
+    BOOTSTRAP_FEATURES: 'Core Bootstrap features'
+    LOAD_CORE_CSS: 'Load Core CSS'
+    LOAD_THEME_CSS: 'Load Default Theme CSS'
+    LOAD_CORE_JS: 'Load Core JS'
+    ADDITIONAL_FEATURES: 'Additional features'
+    LOAD_CUSTOMIZED_BOOTSTRAP: 'Load customized Bootstrap CSS provided by Bootswatch'
+    LOAD_CUSTOMIZED_BOOTSTRAP_HELP: 'Choose prefered Bootswatch theme to load it insted default Bootstrap CSS'
+    LOAD_FONT_AWESOME: 'Load Font Awesome CSS'
+
+ru:
+  PLUGIN_BOOTSTRAPPER_PLUS:
+    STATUS: 'Состояние плагина'
+    ALWAYS_LOAD: 'Загружать всегда'
+    ALWAYS_LOAD_HELP: 'Если отключено, загрузка плагина определяется темой оформления'
+    USE_CDN: 'Использовать CDN'
+    USE_CDN_HELP: "Загружать CSS и JavaScript из CDN"
+    MODE: 'Режим'
+    BOOTSTRAP_FEATURES: 'Основные возможности Bootstrap'
+    LOAD_CORE_CSS: 'Загружать основной CSS'
+    LOAD_THEME_CSS: 'Загружать CSS стандартной темы оформления'
+    LOAD_CORE_JS: 'Загружать основной JS'
+    ADDITIONAL_FEATURES: 'Дополнительные возможности'
+    LOAD_CUSTOMIZED_BOOTSTRAP: 'Загружать настроенный Bootstrap CSS предоставленный Bootswatch'
+    LOAD_CUSTOMIZED_BOOTSTRAP_HELP: 'Выберите подходящую тему оформления Bootswatch для загрузки вместо стандартного Bootstrap CSS'
+    LOAD_FONT_AWESOME: 'Загружать Font Awesome CSS'
